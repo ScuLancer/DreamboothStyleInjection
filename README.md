@@ -1,18 +1,18 @@
 | 第四届计图人工智能挑战赛
 
-# 赛道二：风格迁移图片生成，DreamBooth + LoRA + Styleid
+# 赛道二：风格迁移图片生成
 
 实例生成结果：
 
-<img src="./boat.png" alt="boat" style="zoom:25%;" /><img src="./Aquarium1.png" alt="Aquarium" style="zoom:50%;" /><img src="./Aquarium.png" alt="Aquarium" style="zoom:50%;" />
+<img src="./boat.png" alt="boat" style="zoom:30%;" /><img src="./Aquarium1.png" alt="Aquarium" style="zoom:30%;" /><img src="./Aquarium.png" alt="Aquarium" style="zoom:30%;" />
 
-<img src="./dragon.png" alt="dragon" style="zoom:25%;" /><img src="./Eagle.png" alt="Eagle1" style="zoom:50%;" /><img src="./Eagle1.png" alt="Eagle" style="zoom:50%;" />
+<img src="./dragon.png" alt="dragon" style="zoom:30%;" /><img src="./Eagle.png" alt="Eagle1" style="zoom:30%;" /><img src="./Eagle1.png" alt="Eagle" style="zoom:30%;" />
 
-​                  参考风格图片                              DreamBooth + LoRA                                    Styleid
+​                  参考风格图片                              DreamBooth + LoRA                                    styletransfer
 
 ## 简介
 
-本项目包含了第四届计图人工智能挑战赛 - 风格迁移图片生成的代码实现。本项目采用DreamBooth+LoRA+Styleid的方法对参考的风格图片进行学习，在后续对生成结果进行调整的过程中取得了很好的效果。
+本项目包含了第四届计图人工智能挑战赛 - 风格迁移图片生成的代码实现。本项目对参考的风格图片进行学习，在后续对生成结果进行调整的过程中取得了很好的效果。
 
 ## 安装 
 | 介绍基本的硬件需求、运行环境、依赖安装方法
@@ -82,9 +82,9 @@ bash train_all.sh
 python run_all.py
 ```
 
-## styleid风格迁移
+## 风格迁移
 
-生成测试集上Styleid的结果可以运行以下命令：
+生成测试集上的结果可以运行以下命令：
 
 ```
 cd styleid
